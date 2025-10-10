@@ -1,3 +1,4 @@
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
@@ -53,5 +54,5 @@ plt.plot(xfit, yfit_max, 'b--', label="Max slope")
 # plt.xlim(left=0)
 # plt.ylim(bottom=0)
 plt.legend()
-plt.savefig('fit.png')
+plt.savefig('newton.png')
 plt.show()
